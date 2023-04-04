@@ -18,25 +18,26 @@ git clone git@github.com:igorlaltuf/scraping-presidencial.git
 $ cd scraping-presidencial
 ```
 
+
 2 - Crie um ambiente virtual e o ative
 ```
 virtualenv env
 env/Scripts/Activate
 ```
 
+
 3 - No ambiente, instale os pacotes
 ```
 pip install -r requirements.txt
 ```
 
+
 ## Forma de usar
 
-1) No terminal, abrir a pasta "presidential-scraping".
+1) Abrir a pasta "presidential-scraping" e executar o comando "env/Scripts/Activate" para carregar o ambiente (caso ainda não tenha feito no passo anterior). 
 
-2) Execute o comando "env/Scripts/Activate" para carregar o ambiente (caso ainda não tenha feito no passo anterior). 
+2) Execute o comando "scrapy crawl agenda" para iniciar o web scraping.
 
-3) Execute o comando "scrapy crawl agenda" para iniciar o web scraping.
-
-4) Execute o comando "deactivate" para sair do ambiente.
+3) Execute o comando "deactivate" para sair do ambiente.
 
 Agora basta acessar o arquivo csv que dentro da pasta "output".
