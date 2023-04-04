@@ -21,7 +21,7 @@ $ cd scraping-presidencial
 2 - Crie um ambiente virtual e o ative
 ```
 virtualenv env
-source env/Scripts/Activate
+env/Scripts/Activate
 ```
 
 3 - No ambiente, instale os pacotes
