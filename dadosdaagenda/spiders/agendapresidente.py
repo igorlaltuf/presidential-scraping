@@ -11,6 +11,14 @@ logging.basicConfig(filename='app.log', level=logging.DEBUG,
                     format='%(asctime)s - %(message)s', 
                     datefmt='%d-%b-%y %H:%M:%S')
 
+# Definir o caminho da pasta "dadosdaagenda"
+folder_path = "dadosdaagenda"
+
+# Criar a pasta "output" 
+output_path = os.path.join(folder_path, "output")
+if not os.path.exists(output_path):
+    os.mkdir(output_path)
+
 class AgendaSpider(scrapy.Spider):
     name = "agenda"
     
