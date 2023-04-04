@@ -14,8 +14,8 @@ Virtualenv >= 20.13.0
 
 1 - Baixe o repositório
 ```
-git clone git@github.com:Clyff/nomedorepositorio.git
-$ cd nomedorepositorio
+git clone git@github.com:igorlaltuf/scraping-presidencial.git
+$ cd scraping-presidencial
 ```
 
 2 - Crie um ambiente virtual e o ative
