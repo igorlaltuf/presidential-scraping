@@ -14,8 +14,8 @@ Virtualenv >= 20.13.0
 
 1 - Baixe o repositório
 ```
-git clone git@github.com:igorlaltuf/scraping-presidencial.git
-$ cd scraping-presidencial
+git clone https://github.com/igorlaltuf/presidential-scraping.git
+$ cd presidential-scraping
 ```
 
 
