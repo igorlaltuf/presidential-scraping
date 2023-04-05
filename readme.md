@@ -40,4 +40,4 @@ pip install -r requirements.txt
 
 3) Execute o comando "deactivate" para sair do ambiente.
 
-Agora basta acessar o arquivo csv que dentro da pasta "output".
+Agora basta acessar o arquivo compromissos.csv que está dentro da pasta output.
