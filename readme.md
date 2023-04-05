@@ -21,7 +21,7 @@ $ cd presidential-scraping
 
 2 - Crie um ambiente virtual e o ative
 ```
-virtualenv env
+python -m venv env
 env/Scripts/Activate
 ```
 
